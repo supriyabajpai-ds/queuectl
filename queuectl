@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Launcher for Unix / Git Bash. Usage: ./queuectl <command> ...
 DIR="$(cd "$(dirname "$0")" && pwd)"
-exec java -cp "$DIR/out:$DIR/lib/sqlite-jdbc-3.36.0.3.jar" com.flam.queuectl.cli.Main "$@"
+exec java --enable-native-access=ALL-UNNAMED -cp "$DIR/out:$DIR/lib/sqlite-jdbc-3.36.0.3.jar" com.flam.queuectl.cli.Main "$@"
