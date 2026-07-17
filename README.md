@@ -13,7 +13,7 @@ A production-grade, CLI-based background job queue in **Java**, backed by **SQLi
 ### Option A — no Maven (fastest)
 
 ```bash
-git clone https://github.com/TanishkaMishraa/queuectl.git
+git clone https://github.com/supriyabajpai-ds/queuectl.git
 cd queuectl
 ./build.sh          # downloads the SQLite JDBC jar (once) and compiles into out/
 ./queuectl help
