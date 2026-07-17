@@ -247,7 +247,7 @@ public final class Main {
 
     private static void printHelp() {
         System.out.println("""
-            queuectl — CLI background job queue with retries, backoff and a DLQ
+            queuectl - CLI background job queue with retries, backoff and a DLQ
 
             Usage:
               queuectl enqueue '<job-json>'          Add a job. JSON needs "id" and "command";
