@@ -24,7 +24,7 @@ import java.util.List;
  * WHY the stop flag lives in the DB: `worker stop` runs in a DIFFERENT
  * process from the workers. A DB row is the simplest portable cross-process
  * channel — no PID files, no OS signals (which differ between Windows and
- * Unix, and Tanishka develops on Windows), no sockets. Workers poll the
+ * Unix — this tool is developed on Windows), no sockets. Workers poll the
  * flag between jobs, which is exactly the granularity graceful shutdown
  * needs: never interrupt a running job, never start a new one.
  */
