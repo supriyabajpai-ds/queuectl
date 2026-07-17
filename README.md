@@ -10,7 +10,15 @@ A production-grade, CLI-based background job queue in **Java**, backed by **SQLi
 
 **Prerequisites:** JDK 17+ (`java -version` to check). Maven is optional.
 
-### Option A — no Maven (fastest)
+### Option A — prebuilt jar (zero build steps)
+
+Download `queuectl.jar` from the [latest release](https://github.com/supriyabajpai-ds/queuectl/releases/latest) and run:
+
+```bash
+java -jar queuectl.jar help
+```
+
+### Option B — build from source, no Maven
 
 ```bash
 git clone https://github.com/supriyabajpai-ds/queuectl.git
@@ -25,7 +33,7 @@ On **Windows** (PowerShell / cmd), run `build.sh` once from Git Bash, then use t
 queuectl.bat help
 ```
 
-### Option B — Maven
+### Option C — Maven
 
 ```bash
 mvn -q package
