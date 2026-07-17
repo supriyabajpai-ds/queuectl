@@ -2,7 +2,7 @@
 
 A production-grade, CLI-based background job queue in **Java**, backed by **SQLite**. It runs shell commands as jobs across multiple parallel workers, retries failures with **exponential backoff**, and parks permanently failed jobs in a **Dead Letter Queue (DLQ)** — with zero duplicate processing and full persistence across restarts.
 
-**Demo video:** [link to CLI demo](#) https://drive.google.com/drive/folders/1kEqewPJRrC0fdEJbLk4RmfXGq4YcI2zI?usp=drive_link<!-- upload your recording to Drive and paste the link here -->
+**Demo video:** [link to CLI demo](#)  https://drive.google.com/drive/folders/1kEqewPJRrC0fdEJbLk4RmfXGq4YcI2zI?usp=drive_link<!-- upload your recording to Drive and paste the link here -->
 
 ---
 
